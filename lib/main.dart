@@ -13,6 +13,10 @@ class BreakingBadApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateRoute: appRouter.generateRoute,
+      theme: ThemeData(
+        // primaryColor: Colors.green,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+      ),
     );
   }
 }

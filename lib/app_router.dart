@@ -1,7 +1,6 @@
 import 'package:breaking_bloc/constants/strings.dart';
 import 'package:breaking_bloc/presentation/screens/character_details_screen.dart';
 import 'package:breaking_bloc/presentation/screens/characters_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -13,5 +12,6 @@ class AppRouter {
         return MaterialPageRoute(
             builder: (_) => const CharacterDetailsScreen());
     }
+    return null;
   }
 }

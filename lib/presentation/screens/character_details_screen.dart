@@ -5,9 +5,9 @@ class CharacterDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.green,
-      child: const Text("Test Screen"),
+    return Scaffold(
+      appBar: AppBar(title: const Text("Details Screen")),
+      body: const Center(child: Text("Details Screen")),
     );
   }
 }
